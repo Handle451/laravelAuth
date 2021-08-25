@@ -43,3 +43,5 @@ Route::name('user.')->group(function(){
 
     Route::post('/registration', [\App\Http\Controllers\RegisterController::Class, 'save']);
 });
+
+//echo PHP_BINDIR; путь php для artisan
